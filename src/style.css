@@ -1,62 +1,61 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .header {
-    margin: 2rem 0 4rem 1rem;
-    text-align: center;
+  margin: 2rem 0 4rem 1rem;
+  text-align: center;
 }
 
 main {
-    display: flex;
-    gap: 4rem;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .score_header {
-    display: flex;
-    font-size: 14px;
-    gap: 0.5rem;
-    margin-bottom: 1rem;
+  display: flex;
+  font-size: 14px;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-
 .form_header {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 input {
-    padding: 0.2rem;
+  padding: 0.2rem;
 }
 
 .form_button {
-    display: block;
-    margin-top: 1rem;
-    align-self: flex-end;
-    padding: 0.2rem;
+  display: block;
+  margin-top: 1rem;
+  align-self: flex-end;
+  padding: 0.2rem;
 }
 
 .score_lists {
- border: 1px solid black;
- list-style: none;
+  border: 1px solid black;
+  list-style: none;
 }
 
 .score_list {
-    padding: 0.4rem;
+  padding: 0.4rem;
 }
 
-.score_list:nth-child(even){
-    background: lightgray;
+.score_list:nth-child(even) {
+  background: lightgray;
 }
