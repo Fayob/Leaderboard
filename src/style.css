@@ -11,9 +11,11 @@ body {
 .header {
   margin: 2rem 0 4rem 1rem;
   text-align: center;
+  color: green;
 }
 
 main {
+  width: 100%;
   display: flex;
   gap: 4rem;
   justify-content: center;
@@ -25,10 +27,26 @@ main {
   font-size: 14px;
   gap: 0.5rem;
   margin-bottom: 1rem;
+  color: green;
 }
+
+.refresh_button {
+  cursor: pointer;
+  padding: 0.4rem;
+  background: lightgreen;
+  border: none;
+  font-size: 16px;
+  color: darkgreen;
+}
+
+.refresh_button:hover {
+  border: 2px solid green;
+}
+
 
 .form_header {
   margin-bottom: 1rem;
+  color: green;
 }
 
 .form {
@@ -37,18 +55,27 @@ main {
 }
 
 input {
-  padding: 0.2rem;
+  padding: 0.4rem;
 }
 
 .form_button {
+  cursor: pointer;
   display: block;
   margin-top: 1rem;
   align-self: flex-end;
-  padding: 0.2rem;
+  padding: 0.4rem;
+  background: lightgreen;
+  border: none;
+  font-size: 16px;
+  color: darkgreen;
+}
+
+.form_button:hover {
+  border: 2px solid green;
 }
 
 .score_lists {
-  border: 1px solid black;
+  border: 2px solid black;
   list-style: none;
 }
 
