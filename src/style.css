@@ -14,6 +14,7 @@ body {
 }
 
 main {
+  width: 100%;
   display: flex;
   gap: 4rem;
   justify-content: center;
@@ -37,18 +38,19 @@ main {
 }
 
 input {
-  padding: 0.2rem;
+  padding: 0.4rem;
 }
 
 .form_button {
+  cursor: pointer;
   display: block;
   margin-top: 1rem;
   align-self: flex-end;
-  padding: 0.2rem;
+  padding: 0.4rem;
 }
 
 .score_lists {
-  border: 1px solid black;
+  border: 2px solid black;
   list-style: none;
 }
 
