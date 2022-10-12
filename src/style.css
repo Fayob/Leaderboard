@@ -58,6 +58,10 @@ input {
   padding: 0.4rem;
 }
 
+input::placeholder {
+  font-style: italic;
+}
+
 .form_button {
   cursor: pointer;
   display: block;
