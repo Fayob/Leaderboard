@@ -1,3 +1,5 @@
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 # Project Name: Leaderboard Project
 
 ## Description:
@@ -44,12 +46,12 @@ Twitter: [@fabimworld2536](https://twitter.com/Fabimworld2536)
 LinkedIn: [@abimbola-ade](https://www.linkedin.com/in/abimbola-ade)
 
 ## Live Demo
-[checkout the live demo here](#)
+[checkout the live demo here](https://fayob.github.io/Leaderboard/dist/)
 
 ## Contributing
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](#).
+Feel free to check the [issues page](https://github.com/Fayob/Leaderboard/issues/6).
 
 ## Show your support
 
